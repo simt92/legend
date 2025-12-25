@@ -21,7 +21,7 @@ button {
 .hero-section__bg {
     position: absolute;
     inset: -60px;
-    background-image: url(./img/austria-6934186.jpg);
+    background-image: url(../img/austria-6934186.jpg);
     background-size: cover;
     background-position: center;
     will-change: transform;
@@ -214,7 +214,7 @@ button {
 .hero2-section__bg {
     inset: 0;
     position: absolute;
-    background-image: url(./img/austria-6934184.jpg);
+    background-image: url(../img/austria-6934184.jpg);
     background-size: cover;
     background-position: center;
     z-index: 1;

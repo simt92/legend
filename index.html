@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEGEND</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Darker+Grotesque:wght@300..900&family=Lexend+Zetta:wght@100..900&family=Radley:ital@0;1&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+
+</head>
+
+<body>
+    <section class="hero-section">
+        <div class="hero-section__bg"></div>
+        <img src="./svg/LEGEND.svg" class="hero-section__logo">
+        <div class="hero-section__title">
+            <div class="hero-section__title-innner">
+                <h1>Always Reach</h1>
+                <h1>for</h1>
+                <h1>Greatest Heights.</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-contents">
+        <img src="./img/mountains-6118187.jpg" class="main-contents__bg">
+        <div class="main-contents__title">
+            <h1>Why do you keep going for it?</h1>
+        </div>
+        <div class="main-contents__container">
+            <div class="main-contents__text-area">
+                <p>Don't be satisfied with the current situation; embark on a journey to find a new you.</p>
+                <p>Don't be afraid of change.</p>
+                <p>Happiness only comes to those who strive to change.</p>
+                <p>Let's nurture the seeds of curiosity. Look around and keep your perspective broad.</p>
+                <p>If you do, a path that elevates you will surely become visible.</p>
+            </div>
+        </div>
+    </section>
+    <div class="comunity-contents__cutting-shape"></div>
+    <section class="comunity-contents">
+        <div class="comunity-contents__container">
+
+            <div class="comunity-contents__left">
+                <div class="comunity-contents__title">
+                    <h1>For those of you</h1>
+                    <h1>who are afraid of change.</h1>
+                </div>
+                <div class="comunity-contents__text">
+                    <p>You don't have to feel miserable. Everyone is scared at first. </p>
+                    <p>But what might be difficult alone could be manageable with someone else, allowing you to take a
+                        step forward.</p>
+                    <p>There's a wonderful community for you.</p>
+                    <p>Why not casually connect with people who share similar concerns?</p>
+                </div>
+                <button class="join-btn">JOIN</button>
+            </div>
+
+            <div class="comunity-contents__right">
+                <img src="./img/mountains-3959204.jpg" class="comunity-contents__image">
+            </div>
+        </div>
+    </section>
+
+    <section class="hero2-section">
+        <div class="hero2-section__bg"></div>
+        <span class="blur-effect"></span>
+        <div class="hero2-section__container">
+            <div class="hero2-section__contents">
+                <h1>Let's go together!</h1>
+                <div class="hero2-section__text">
+                    <p>Now that you've come this far, all that's left is one more step!</p>
+                    <p>You are brilliant for taking that step forward.</p>
+                    <p>You won't be able to hide your surprise at the world you see, the expanding scenery, and how
+                        completely different everything looks compared to before.</p>
+                    <p>But this is not the goal. It's the starting line.</p>
+                    <p>You will face difficulties countless times from now on. But never be discouraged.</p>
+                    <p>No matter how tough it gets, no matter how much you want to run away, don't forget the view from
+                        the summit.</p>
+                    <p>And remember, we are always on your side.</p>
+                    <p>f you feel overwhelmed, call for help. We will rush to your side anytime.</p>
+                    <p>Now, let's go.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="counter-section">
+        <div class="counter-container">
+            <div class="counter-contents counter-contents__left">
+                <h1>People of Challenger</h1>
+            </div>
+            <div class="counter-contents counter-contents__right">
+                <div class="glass-bg"></div>
+                <div class="counter-contents__counter">
+                    <span>1000</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-contents__left">
+                <div class="contact-contents__left-inner">
+                    <h1>CONTACT US</h1>
+                    <p>If you are interested in our activities, please contact us at the following address.
+                        We would be happy to help you if we can.</p>
+                    <button class="contact-btn">xxx@legend.studio</button>
+                </div>
+            </div>
+            <div class="contact-contents__right">
+                <img src="./img/patagonia-10020972.jpg" class="contact-contents__image">
+                <img src="./img/patagonia-10020972.jpg" class="contact-contents__image">
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <img src="./svg/LEGEND.svg" class="footer__logo">
+        <p>© 2025 LEGEND STUDIO</p>
+    </footer>
+
+    <!-- 慣性スクロールLenis====================================================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis"></script>
+    <script>
+        const lenis = new Lenis({
+            smooth: true
+        })
+
+        function raf(time) {
+            lenis.raf(time)
+            requestAnimationFrame(raf)
+        }
+
+        requestAnimationFrame(raf)
+    </script>
+
+</body>
+
+</html>
